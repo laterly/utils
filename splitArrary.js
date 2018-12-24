@@ -3,7 +3,7 @@
  * @param arr
  * 要被分割的数组
  * @param len
- * 分成的份数
+ * 要将数组分成的份数
  */
 function splitArrary(arr, len) {
     var arrLen = arr.length;
