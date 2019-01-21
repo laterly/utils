@@ -1,6 +1,6 @@
 # utils-vue
 
-> A Vue.js project
+> A Vue.js utils project
 
 ## Build Setup
 
