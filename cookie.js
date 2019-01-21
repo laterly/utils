@@ -28,3 +28,9 @@ export default {
     get: get,
     update: updateCookie
 }
+
+/*调用 */
+// function getToken() {
+//     cookie.update();
+//     return cookie.get('socket_url');
+// }
