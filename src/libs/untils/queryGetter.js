@@ -15,6 +15,6 @@ function get(name) {
     }
     return queryObj[name]
 }
-module.exports = {
+export default {
     get: get
 };

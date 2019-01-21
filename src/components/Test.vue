@@ -1,20 +1,29 @@
 <template>
   <div>
-    111
+    {{msg}}
   </div>
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-      msg: ''
+  import uaSdk from "@/libs/untils/uaSdk";
+  export default {
+    data() {
+      return {
+        msg: '111'
+      }
+    },
+    created() {
+      console.log(uaSdk.isWechat());
+      console.log(uaSdk.isAndroid());
+      console.log(uaSdk.isMobile());
+    },
+    methods: {
+      
     }
   }
-}
 </script>
 
 
 <style scoped>
-
+  
 </style>

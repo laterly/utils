@@ -7,7 +7,7 @@
  */
 let globalData = window.globalData || {};
 window.globalData = globalData;
-module.exports = {
+export default {
     //存储到window
     normal: {
         set: (key, value) => {

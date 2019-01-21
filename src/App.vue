@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     测试untils
-    <HelloWorld/>
+    <Test/>
   </div>
 </template>
 

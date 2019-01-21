@@ -3,7 +3,7 @@
  * @param str
  * 传入的数据
  */
-function isJSON(str) {
+function isJson(str) {
     if (typeof str == "string") {
         try {
             var obj = JSON.parse(str);
@@ -18,3 +18,6 @@ function isJSON(str) {
         }
     }
 }
+export default {
+  isJson: isJson
+};

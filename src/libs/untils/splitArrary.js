@@ -13,6 +13,6 @@ function splitArrary(arr, len) {
     }
     return newArr;
 }
-module.exports = {
+export default {
     splitArrary: splitArrary
 };
