@@ -1,6 +1,6 @@
 # utils-vue
 
-> A Vue.js utils project
+> 封装的一些vue的常用工具类方法
 
 ## Build Setup
 
